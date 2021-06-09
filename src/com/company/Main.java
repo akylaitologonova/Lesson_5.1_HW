@@ -3,6 +3,7 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
+
 	// write your code here
         Hero Superman = new Hero(250, 50, 80);
 
@@ -11,7 +12,8 @@ public class Main {
                 Superman.getDamage() + " " + Superman.getSuperAbilities());
 
 
-        Boss Ultraman  = new Boss(400, 80, 70);
+        Boss Ultraman  = new Boss(400, 80, 0);
+
 
 
 
