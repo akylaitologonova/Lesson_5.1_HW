@@ -35,12 +35,21 @@ public class Boss {
         Protect = protect;
     }
 
-    public void bossProtect(int bossProtect){
-        if(bossProtect>=0);
-        System.out.println("У Босса нет защиты");
+
+        public void bossProtect(int bossProtect) {
+            if (bossProtect >= 0) {
+                System.out.println("У Босса есть защита " + bossProtect);
+            }else {
+                System.out.println("У Босса нет защиты " + bossProtect);
+            }
+        }
+
+
+
+
 
 
 
 
     }
-       }
+
