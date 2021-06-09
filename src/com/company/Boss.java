@@ -34,5 +34,5 @@ public class Boss {
     public void setProtect(int protect) {
         Protect = protect;
     }
-    public static void changeBossDefence(){}
+    public static void changeBossProtect(){}
        }
