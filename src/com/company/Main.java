@@ -12,11 +12,14 @@ public class Main {
                 superman.getDamage() + " " + superman.getSuperAbilities());
 
 
-        Boss ultraman  = new Boss(400, 80, 0);
+        Boss ultraman  = new Boss(400, 80, 15);
 
 
         System.out.println(ultraman.getHealth() + " " +
                 ultraman.getDamage() + " " + ultraman.getProtect());
+
+        ultraman.bossProtect(0);
+        System.out.println(ultraman.getProtect());
 
 
     }
